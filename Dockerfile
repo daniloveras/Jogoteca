@@ -5,7 +5,7 @@ FROM python:3.8.5
 WORKDIR /app
 
 # Copia o conteúdo do diretório corrente para dentro do container em /app
-ADD ./* /app
+ADD ./* /app/
 
 # Copia os requerimentos para dentro do container em /etc
 #COPY ./requirements.txt /etc
