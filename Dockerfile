@@ -14,6 +14,7 @@ ADD ./* /app/
 #RUN apt-get install python3-devel mysql-devel
 
 # Instala todos os pacotes necessários especificados em requirements.txt
+RUN pip install --upgrade pip
 RUN pip install -r /app/requirements.txt
 
 
